@@ -1,0 +1,16 @@
+<div class="wrap">
+  <div class="box" *ngFor="let cigeratteCategorie of cigeratteCategories">
+    <div class="box-top">
+      <img class="box-image"
+           src="{{cigeratteCategorie.image}}"
+           alt="Cigeratte">
+      <div class="title-flex">
+        <h3 class="box-title">{{cigeratteCategorie.name}}</h3>
+        <p class="box-title">{{cigeratteCategorie.description}}</p>
+      </div>
+    </div>
+    <a href="" routerLink="/marlboro" class="button">Buy now</a>
+  </div>
+</div>
+
+
