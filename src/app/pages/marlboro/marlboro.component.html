@@ -1,1 +1,14 @@
-<p>marlboro works!</p>
+<app-navbar></app-navbar>
+<div class="wrap">
+  <div class="box" *ngFor="let marlboro of marlboro" routerLink="/cigerattes">
+    <div class="box-top">
+      <img class="box-image"
+           src="{{marlboro.image}}"
+           alt="Cigeratte">
+      <div class="title-flex">
+        <h3 class="box-title">{{marlboro.name}}</h3>
+      </div>
+    </div>
+    <a class="button">Add to cart</a>
+  </div>
+</div>

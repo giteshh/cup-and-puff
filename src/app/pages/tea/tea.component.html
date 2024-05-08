@@ -1,15 +1,15 @@
 <app-navbar></app-navbar>
 <div class="wrap">
-  <div class="box" *ngFor="let others of others" routerLink="/cigerattes">
+  <div class="box" *ngFor="let tea of tea" routerLink="/tea">
     <div class="box-top">
       <img class="box-image"
-           src="{{others.image}}"
+           src="{{tea.image}}"
            alt="Cigeratte">
       <div class="title-flex">
-        <h3 class="box-title">{{others.name}}</h3>
+        <h3 class="box-title">{{tea.name}}</h3>
+        <p class="box-title">{{tea.price | currency:'INR'}}</p>
       </div>
     </div>
     <a class="button">Add to cart</a>
   </div>
 </div>
-

@@ -5,9 +5,10 @@ import {LoginComponent} from "./pages/login/login.component";
 import {CigeratteCategoryComponent} from "./pages/cigeratte-category/cigeratte-category.component";
 import {GoldFlakeComponent} from "./pages/gold-flake/gold-flake.component";
 import {MarlboroComponent} from "./pages/marlboro/marlboro.component";
-import {FourSquareComponent} from "./pages/four-square/four-square.component";
 import {WillsClassicComponent} from "./pages/wills-classic/wills-classic.component";
 import {OthersComponent} from "./pages/others/others.component";
+import {TeaComponent} from "./pages/tea/tea.component";
+import {ColdDrinkComponent} from "./pages/cold-drink/cold-drink.component";
 
 export const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -19,4 +20,6 @@ export const routes: Routes = [
   {path: 'marlboro', component: MarlboroComponent},
   {path: 'wills-classic', component: WillsClassicComponent},
   {path: 'others', component: OthersComponent},
+  {path: 'tea', component: TeaComponent},
+  {path: 'cold-drink', component: ColdDrinkComponent},
 ];

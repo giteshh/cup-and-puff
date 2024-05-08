@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<div class="wrap">
+  <div class="box" *ngFor="let colddrink of colddrink" routerLink="/cigerattes">
+    <div class="box-top">
+      <img class="box-image"
+           src="{{colddrink.image}}"
+           alt="Cigeratte">
+      <div class="title-flex">
+        <h3 class="box-title">{{colddrink.name}}</h3>
+        <p class="box-title">{{colddrink.price | currency:'INR'}}</p>
+      </div>
+    </div>
+    <a class="button">Add to cart</a>
+  </div>
+</div>

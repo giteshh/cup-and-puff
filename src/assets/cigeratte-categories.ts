@@ -23,7 +23,7 @@ export const cigeratteCategories = [
   {
     "id": 4,
     "name": "Others",
-    "description": "Your brand not listed? Explore",
+    "description": "Your brand not listed? Find here.",
     "image": "https://imgs.search.brave.com/S7xm3ecH94O1t5Zs_EAsuXC4Lh1IdXIMMg4nKLzntuE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90aGlu/Z3NpbmluZGlhLmlu/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE4/LzA0L1VudGl0bGVk/LTU2MC14LTMxNS1w/eC0xLmpwZw",
     "url": "/others"
   },
